@@ -189,9 +189,9 @@ int main(int argc, char *argv[])
                 else if(!strcmp(str, "restart"))//Marks the end of the display and triggers it to replay once audio ends.
                 {
                     restart=true;
-		    fin>>str;
-		    if(!(strcmp(str, "night")))
-			nightWait();
+					fin>>str;
+					if(!(strcmp(str, "night")))
+					nightWait();
                     strcpy(str, "end");
                 }
                 else if(!strcmp(str, "add"))//Requires number of seconds to add.

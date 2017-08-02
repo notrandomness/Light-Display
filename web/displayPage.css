@@ -1,0 +1,60 @@
+body {
+	background-color: #000;
+}
+
+/* Style the tab */
+.tabBar {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    margin-left: -20px;
+	margin-right: -8px;
+}
+
+
+/* Style the buttons inside the tab */
+.tab {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+	width: 150px;
+	height: 50px;
+}
+
+/* Change background color of buttons on hover */
+.tab:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tabBar button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.contentContainer {
+	background-color: #eee;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-left: -20px;
+	margin-right: -8px;
+}
+
+.pageTitle {
+	text-align: center;
+	margin-top: 20px;
+	padding: 1px;
+}
+
+.titleBar {
+	background-color: #aaf;
+	height: 60px;
+    margin-top: -20px;
+    margin-left: -20px;
+	margin-right: -8px;
+}
