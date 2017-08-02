@@ -92,4 +92,9 @@ class light_display
 		void channel_setter(int channel, int level);
 };
 
+//0, 1, 2, 3, 4, 5, 6, 7 for latch inputs
+//21, 22, 23 for decoder inputs
+//24 for decoder enable
+//Channel numbering starts at 1, not 0.
+
 #endif
